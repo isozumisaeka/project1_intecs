@@ -1,0 +1,332 @@
+
+html *{
+	box-sizing: border-box;
+	/*outline: 1px dotted red;*/
+	
+}
+
+
+
+body{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	color: #24140e;
+	
+}
+
+h2{
+	text-align: center;
+	font-size: 2.25em;
+	padding-bottom: 5px;
+	margin-top: 20px;
+	border-bottom: 3px dotted black;
+}
+
+.header a, .footer a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+/*ヘッダー*/
+.header{
+	background-color: #228b22;
+	display: flex;
+	justify-content: space-between;
+	/* position: fixed; */
+	width: 1200px;
+}
+
+.header h1{
+	font-size: 45px;
+}
+
+.header h1, .header li{
+	color: #fffff9;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-family: 'Amatic SC', cursive;
+}
+
+
+.navbar ul{
+	display: flex;
+	margin-top: 20%;
+	font-size: 25px;
+}
+
+.navbar li:hover{
+	color:#c82c55;
+}
+
+.sns{
+	color: white;
+}
+
+/*メイン*/
+.main-contents img{
+	width: 100%;
+}
+
+#fs, section{
+	margin-bottom: 30px;
+}
+/*about us*/
+.about-contents{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+
+.about-contents p{
+	font-size: 1.5em;
+	margin: 10px 0px;
+}
+
+
+.about img{
+	/*padding: 0 10px;*/
+	width: 100px;
+	height: auto;
+	margin: 0 auto;
+
+}
+
+.about a{
+	text-decoration: none;
+	color:black;
+}
+/* what's new */
+.news li{
+	font-size: 1.25em;
+	padding: 20px 10px;
+}
+/*pick up セクション*/
+/*grid*/
+.grid{
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.item{
+	width: 400px;
+
+}
+
+.item img{
+	width: 300px;
+	height: auto;
+	padding: 5px;
+}
+
+.item p{
+	width: 300px;
+	font-size: 1em;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.next form{
+	text-align: center;
+	padding: 10px;
+}
+
+/*一覧を見るボタン*/
+.next input{
+	background-color: #228b22;
+	padding: 5px 10px;
+	border: 1px dashed #6b3f31;
+	color: white;
+}
+
+/*フッター*/
+.footer{
+	/*height: 200px;*/
+	background-color: #228b22;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-right{
+	text-align: right;
+	margin-right: 20px;
+}
+
+.footer li{
+	margin: 5px;
+}
+
+.footer ul{
+	display: flex;
+}
+.footer p{
+	color: white;
+}
+
+/*.footer a{
+	text-decoration: none;
+	color: white;
+}*/
+
+/*contact.html*/
+.contact-contents a{
+	color: black;
+}
+
+.contact-text{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.top table,.top tr,.top th,.top td{
+	/*margin: 0 auto;*/
+	border: 0.5px dotted gray;
+}
+
+table{
+	margin: 20px auto;
+}
+
+form{
+	margin-bottom: 20px;
+}
+
+form span{
+	color: red;
+}
+
+form th{
+	text-align: center;
+	padding: 20px 50px;
+	width: 350px;
+}
+
+form td{
+	padding-left: 20px;
+	width: 650px;
+}
+
+.top input{
+	height: 35px;
+}
+
+.name-input input, .kanji-input input{
+	width: 300px;
+}
+
+.name-1{
+	padding-right: 15px;
+}
+
+.tel-input input, .mail-input input, .question-input textarea{
+	width:450px
+}
+
+.top div{
+	padding: 10px;
+}
+
+.submit{
+	text-align: center;
+	padding: 10px;
+	margin: 0 50%;
+	background-color: #228b22;
+	padding: 5px 10px;
+	border: 1px dashed #6b3f31;
+	color: white;
+}
+
+/* about.html */
+.shop-contents th{
+	width: 100px;
+	text-align: left;
+}
+
+.shop-contents td{
+	width: 270px;
+	text-align: left;
+}
+
+.shop-contents table,td,th{
+	border: 1px solid white;
+}
+
+.shop{
+	margin: 20px auto;
+}
+.shop img{
+	width: 200px;
+	height: auto;
+}
+
+.shop a{
+	text-decoration: none;
+	color: white;
+	border: 1px solid #009944;
+	padding: 3px 15px;
+	margin-top:10px ;
+	background-color: #009944;
+
+}
+
+.shop a:hover{
+	color: #fff352;
+}
+
+.shopname{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/*thanks.html*/
+.thanks{
+	height: 800px;
+	background-image: url(../images/thanks.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.frontText{
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 50%;
+}
+
+/*product.html*/
+h3{
+	border-bottom:2px dashed black ;
+	width: 70%;
+	text-align: center;
+	margin: 20px auto;
+
+}
+
+@media(max-width: 760px){
+	p{
+		font-size: 0.75em;
+	}
+
+	.grid{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/* align-items: baseline; */
+	align-content: stretch;
+}
+}
